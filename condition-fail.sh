@@ -1,6 +1,6 @@
 !#/bin/bash
 
-cat not_exist_file.txt
+cat txtfiles/not_exist_file.txt
 
 if [ "$?" -eq 0 ]; then
   echo "Success"
